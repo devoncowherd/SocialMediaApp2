@@ -1,0 +1,26 @@
+#photoUpload {
+    display: none;
+}
+
+textarea {
+    font-size: 1.5em;
+    padding: 1em;
+    resize: none;
+    width: 250px;
+    min-height: 200px;
+    border: none;
+}
+
+#postPreview {
+    text-align: right;
+    margin-top: 1em;
+    border: none;
+}
+
+#postPreviewImage {
+    object-fit: cover;
+    object-position: center;
+    width: 150px;
+    height: 100px;
+    opacity: .8;
+}

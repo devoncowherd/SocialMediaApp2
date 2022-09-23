@@ -1,0 +1,23 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Create Post</mat-card-title>
+    </mat-card-header>
+    <div>
+        <textarea #commentInput placeholder="What's on your mind?">
+
+        </textarea>
+    </div>
+    <div id="postPreview">
+        <img id="postPreviewImage"/>
+    </div>
+    <mat-card-actions align="end">
+        <button mat-button color="warn">
+            <label for="photoUpload">
+                <input #photoSelector (change)="onPhotoSelected(photoSelector)"
+                id="photoUpload" type="file" accept="image/*"/>
+                <mat-icon>insert_photo</mat-icon>
+            </label>
+        </button>
+        <button (click)="onPostClick(commentInput)" mat-flat-button color="warn">Post</button>
+    </mat-card-actions>
+</mat-card>

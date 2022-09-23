@@ -1,0 +1,35 @@
+#homepage{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(20,20,20);
+    color: white;
+
+}
+
+#homepageLanding{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+}
+
+#landingLeft {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#landingLeftContent {
+    text-align: right;
+    padding: 1em 1em 1em 3em;
+}
+
+#landingLeftContent h1 {
+    font-size: 3em;
+}
+
+#landingLeftContent button {
+    font-size: 2em;
+    padding: .5em;
+}
