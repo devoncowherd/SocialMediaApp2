@@ -1,4 +1,4 @@
-[!Preview](./src/assets/scroll%20site.gif)
+![Preview](./src/assets/scroll%20site.gif)
 
 # SocialMediaApp
 
